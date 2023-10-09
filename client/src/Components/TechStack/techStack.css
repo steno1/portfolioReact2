@@ -136,7 +136,7 @@ font-weight: 500;
    .tech-content p{
     text-align: center;
     padding-top: 30px;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 500;
     font-family: Georgia, 'Times New Roman', Times, serif;
     
@@ -159,6 +159,8 @@ font-weight: 500;
         .techStack-section{
           max-width: 300px;
         }
-        
+        .tech-content p:hover{
+          font-size: 17px;
+        }
    
 }
