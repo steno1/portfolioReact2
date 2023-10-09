@@ -1,5 +1,5 @@
 const data=[
-    {name:"Full Stack Developer (MERN)"},
+    {name:"Full Stack Developer"},
     {name:"Javascript"},
     {name:"CSS"},
     {name:"HTML"},

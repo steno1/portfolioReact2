@@ -105,6 +105,10 @@ margin-left: 130px;
     }
 
       @media (max-width: 767px) {
+        .home-content{
+margin-left: -80px;
+width: 400px;
+        }
         .btn {
             width: 120px; 
             font-size: 15px;
@@ -120,4 +124,10 @@ margin-left: 130px;
         .button-for-action{
             
             margin-left: 100px;}
+         
+          .time{
+          
+           margin-left: 120px;
+            
+          }
     }

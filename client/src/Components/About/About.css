@@ -41,13 +41,23 @@
     }
     .about-details{
         margin-top: 5px; 
-        margin-left: 80px;
+        margin-left: 0px;
         margin-bottom: 10px;
+       width: 295px;
        
+
+       
+    }
+    .about-section{
+        max-width: 300px;
     }
     .about-title h3{
         display: inline-block;
         margin-left: 70px;
     }
+    .about-image{
+        margin-left: -70px;
+    }
+    
     
 }

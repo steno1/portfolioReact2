@@ -24,3 +24,175 @@
           color: #C70039;
         }
       }
+
+      .project-list{
+
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.58);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.58);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.58);
+margin: 10px;
+padding: 10px;
+padding-bottom: 10px;
+color: white;
+padding-right: 15px;
+border-radius: 1%;
+background: rgb(36,18,0);
+background: linear-gradient(211deg, rgba(36,18,0,0.5791973894049807) 0%, rgba(82,121,9,1) 83%,
+ rgba(154,91,109,0.2626707787607231) 100%);
+
+ text-shadow: 4px 4px 2px rgba(22, 23, 24, 0.6);
+
+ margin-bottom: 30px;
+      }
+
+      .project-list-opened{
+        background-color: #008170;
+        transition-duration: 3s;
+        color: white;
+        padding: 10px;
+        box-shadow: 10px 10px 5px 0px rgba(177,149,222,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(177,149,222,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(177,149,222,0.75);
+
+      }
+
+      .fcExpand {
+        color: white !important;
+        background-color: rgb(242, 236, 236);
+        border-radius: 4%;
+      }
+      .fcExpand:hover{
+        background-color:white;
+      }
+
+      .title-and-collapse-option{
+        display: flex;
+        justify-content:space-between ;
+        margin: 5px;
+        
+        
+      }
+      
+      .des{
+        color: black;
+        text-shadow: none;
+        background-color:#F3FDE8;
+        padding: 10px;
+        border-radius: 2%;
+        font-size: 18px;
+        margin: 5px;
+      }
+      .des .more{
+        color: white;
+        background-color: rgb(36, 33, 33);
+
+        cursor: pointer;
+        padding: 15;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      .des .more:hover{
+        background-color:black;
+        
+      }
+      .project-list:hover{
+background-color: yellow;
+transition-duration: 2s;
+      }
+      .tech-used-in-project{
+      
+        margin-top: 20px;
+        margin: 5px;
+       
+        
+      }
+      .tech-used-in-project p{
+       text-align: center;
+       background-color: #005B41;
+       border-radius: 3%;
+       padding: 8px;
+       text-align: center;
+       font-size: 15px;
+      }
+      .tech-used-in-project p:hover{
+        background-color: #232D3F;
+        font-size: 16px;
+        padding: 14px;
+        cursor: pointer;
+      }
+      .buttons{
+        display: inline;
+      }
+      .live-demo-button{
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+
+      .demo-button {
+        background-color:black; /* Add your desired background color for Live Demo button */
+        color: #ffffff; /* Add desired text color */
+        padding: 10px 20px; /* Add desired padding */
+        text-decoration: none;
+        margin-right: 10px; /* Adjust the margin between the buttons as needed */
+        border-radius: 8%;
+        width: fit-content;
+        text-shadow: none;
+        transition-duration: 2s;
+       
+      }
+      
+      .github-button {
+        background-color:white; /* Add your desired background color for GitHub Link button */
+        color: black; /* Add desired text color */
+        padding: 10px 20px; /* Add desired padding */
+        text-decoration: none;
+        text-shadow: none;
+        border-radius: 8%;
+        width: fit-content;
+        text-shadow: none;
+        font-weight: 400;
+      transition-duration: 2s;
+        
+        
+      }
+      .demo-button:hover {
+        background-color:white; /* Change to blue on hover */
+        color:black;
+        font-size: 15px;
+        font-weight: 600;
+      }
+      .github-button:hover {
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+      }
+      
+
+      @media (max-width: 767px) {
+        .container {
+          max-width: 300px; /* Adjust the value as needed */
+          margin-left: 65px;
+        }
+
+        .row {
+          display: flex;
+          flex-wrap: wrap;
+        }
+      
+        .col-xl-3,
+        .col-lg-3,
+        .col-md-4,
+        .col-sm-6 {
+          flex: 0 0 50%; /* Set to 50% to have two columns */
+          max-width: 50%; /* Set to 50% to have two columns */
+          box-sizing: border-box;
+        }
+        .live-demo-button{
+         margin-top: 10px;
+        }
+        .project-list-opened{
+          margin-top: 10px;
+        }
+         
+         }
+        

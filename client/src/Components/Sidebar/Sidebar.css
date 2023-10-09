@@ -11,9 +11,8 @@ color:#aab2c3;
 .sidebar{
     height:100vh;
     background-color:black;
-    width: 75px;
+    width: 70px;
     position: fixed;
-    
 
 }
 .sidebar-expand{
@@ -43,3 +42,4 @@ color:#aab2c3;
    cursor: pointer;
    
 }
+

@@ -11,6 +11,7 @@ const App = () => {
  <About/>
  <TechStack/>
  <Project/>
+ 
  </>
   )
 }

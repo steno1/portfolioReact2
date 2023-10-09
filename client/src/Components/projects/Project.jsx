@@ -1,3 +1,4 @@
+import ProjectList from './ProjectList';
 import React from 'react'
 import projectData from '../../ProjectData'
 
@@ -13,9 +14,9 @@ const Project = () => {
         {projectData.map((project) => (
           <div
             className="col-xl-6 col-lg-6 col-md-6 col-sm-12"
-            key={project.id}  // Use unique ID as key
+            key={project.id}
           >
-            {project.name}
+           <ProjectList {...project}/>
           </div>
         ))}
       </div>

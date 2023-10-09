@@ -1,6 +1,5 @@
-const projectData=[
+const ProjectData=[
     {  
-        id: 1,  // Unique ID for the project
         name:"StenoMarket",
         des:"UrbanTrend is a cutting-edge e-commerce platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js) that revolutionizes the online shopping experience for urban fashion enthusiasts. This dynamic web application offers a wide range of trendy apparel, footwear, and accessories curated for individuals with a penchant for contemporary urban styles.",
         projectLink:"https://dailytaskapp.onrender.com/",
@@ -22,7 +21,7 @@ const projectData=[
         name:"DailyTask",
         des:"UrbanTrend is a cutting-edge e-commerce platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js) that revolutionizes the online shopping experience for urban fashion enthusiasts. This dynamic web application offers a wide range of trendy apparel, footwear, and accessories curated for individuals with a penchant for contemporary urban styles.",
         projectLink:"https://dailytaskapp.onrender.com/",
-        gitHubLink:"https://github.com/steno1/taskManagementApp",
+        gitHubLink:"https://www.nairaland.com/",
         techUsed:[
             {techName:"Nodejs"},
             {techName:"React"},
@@ -39,7 +38,7 @@ const projectData=[
         name:"PrinceleyPortfolio",
         des:"UrbanTrend is a cutting-edge e-commerce platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js) that revolutionizes the online shopping experience for urban fashion enthusiasts. This dynamic web application offers a wide range of trendy apparel, footwear, and accessories curated for individuals with a penchant for contemporary urban styles.",
         projectLink:"https://steno1.github.io/portfolioSite/",
-        gitHubLink:"https://github.com/steno1/taskManagementApp",
+        gitHubLink:"https://www.goal.com/en-ng",
         techUsed:[
             {techName:"Nodejs"},
             {techName:"React"},
@@ -50,4 +49,4 @@ const projectData=[
     }
 ]
 
-export default projectData;
+export default ProjectData;
