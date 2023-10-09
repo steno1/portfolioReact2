@@ -1,0 +1,26 @@
+.techStack-section{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+.section-title h2{
+    text-align: center;
+    animation: changeColor 6s infinite alternate;
+    font-size: larger;
+    font-weight: 700;
+    }
+    @keyframes changeColor {
+        0% {
+          color: green;
+        }
+        33% {
+          color: #9400FF;
+        }
+        66% {
+          color: #E55604;
+        }
+        100% {
+          color: #C70039;
+        }
+      }

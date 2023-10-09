@@ -1,0 +1,53 @@
+
+
+.about-image img{
+    height: 250px;
+    width: 250px;
+    border-radius: 40%;
+    margin-left: 120px;
+    margin-top: 40px;
+    border: 2px solid rgb(116, 238, 116);
+    cursor: pointer;
+    object-fit: cover;
+    margin-bottom: 20px;
+    transition: transform 2s;
+   
+}
+.about-image img:hover{
+    transform: rotate(360deg); 
+}
+.about-details{
+    margin-top: 40px; 
+    padding: 20px;
+    
+    background-color: #186F65;
+    color: white;
+    border-radius: 1%;
+    cursor: pointer;
+    
+}
+.about-title h5{
+    margin-right: 500px;
+}
+
+@media (max-width: 767px) {
+
+    .about-image img {
+        height: 200px;
+        width: 200px;
+        margin-left: 120px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .about-details{
+        margin-top: 5px; 
+        margin-left: 80px;
+        margin-bottom: 10px;
+       
+    }
+    .about-title h3{
+        display: inline-block;
+        margin-left: 70px;
+    }
+    
+}
