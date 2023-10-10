@@ -3,8 +3,9 @@ import "./SidebarList.css"
 import { FcAbout } from "react-icons/fc";
 import {FcAddDatabase} from "react-icons/fc";
 import {FcAdvertising} from "react-icons/fc";
+import { FcBriefcase } from "react-icons/fc";
 import { FcContacts } from "react-icons/fc";
-import { FcHome } from "react-icons/fc";
+import { FcHome } from "react-icons/fc"
 import {FcLibrary} from "react-icons/fc";
 import { FcParallelTasks } from "react-icons/fc";
 import { FcStackOfPhotos } from "react-icons/fc";
@@ -27,7 +28,7 @@ const SidebarList = ({expandSideBar}) => {
 <FcAbout/> About
 </li>
 <li className="nav-item">
- <FcParallelTasks/>Work Experience
+ <FcBriefcase/>Work Experience
 </li>
 <li className="nav-item">
  <FcStackOfPhotos/>Tech Stack

@@ -85,15 +85,15 @@ margin-top: 10px;
         margin: 5px;
       }
       .des .more{
-        color: white;
-        background-color: rgb(36, 33, 33);
+        color: blue;
+        
 
         cursor: pointer;
         padding: 15;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       }
       .des .more:hover{
-        background-color:black;
+        color: green;
         
       }
       .project-list:hover{
@@ -175,7 +175,10 @@ transition-duration: 2s;
           max-width: 300px; /* Adjust the value as needed */
           margin-left: 65px;
         }
-
+.section-title{
+ 
+  margin-left: -70px;
+}
         .row {
           display: flex;
           flex-wrap: wrap;

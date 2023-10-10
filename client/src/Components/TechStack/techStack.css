@@ -131,7 +131,7 @@ font-weight: 500;
 @media (max-width: 767px) {
   .techStackMain{
     margin-left: 10px;
-    color: red;
+   
   }
    .tech-content p{
     text-align: center;
