@@ -12,7 +12,7 @@ const WorkExperience = () => {
             </div>
     <div className="container my-5 position-relative z-neg1" 
     
-    style={{ zIndex: -1 }}>
+    style={{ zIndex: -1 }} >
       <div className="row">
         {WorkData.map((item, index)=>(
 

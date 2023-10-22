@@ -1,26 +1,38 @@
-
-.section-title{
-    margin-top: 25px;
-   
+.testimonial-section{
+    margin-top: 70px;
+    height: 80vh;
+   text-align: center;
+}
+.content-slider-main{
+    margin: 5px;
+    border-radius: 10px;
 }
 
-.z-neg1{
-background-color:#186F65;
-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+.content-slider{
+    padding: 15px;
+    color:white;
+    background-color: #B2533E;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    height: 250px;
+    
+
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-
-padding-top: 25px;
-
-margin-top: 5px;
-cursor: pointer;
-
 }
-
-.card-title{
-    text-align: center;
+.content-slider img.center-image{
+    height: 80px;
+    width: 80px;
+    border-radius: 40%;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    margin-top: -30px;
 }
-
 
 .section-title h2{
     text-align: center;
@@ -63,9 +75,3 @@ cursor: pointer;
               color: #3085C3;
             }
       }
-     
-      @media (max-width: 767px) {
-       .section-title{
-        margin-right: -70px;
-       }
-    }
