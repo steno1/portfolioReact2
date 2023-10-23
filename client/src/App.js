@@ -1,4 +1,5 @@
 import About from './Components/About/About'
+import Contact from './Components/contact/Contact'
 import Project from './Components/projects/Project'
 import React from 'react'
 import Sidebar from './Components/Sidebar/Sidebar'
@@ -14,6 +15,7 @@ const App = () => {
  <Project/>
  <WorkExperience/>
  <Testimonial/>
+ <Contact/>
 
  
  

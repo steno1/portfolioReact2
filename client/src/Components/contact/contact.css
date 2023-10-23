@@ -1,0 +1,98 @@
+.contact-section{
+    height: 650px;
+    color:green;
+    background-color:#EEEEEE;
+    padding: 10px;
+    border-radius: 2%;
+   
+}
+.contact-form-image img{
+    height: 350px;
+    width: 100%;
+    border-radius: 10%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.contact-form input{
+height: 50px;
+border-radius: 3%;
+margin-top: 10px;
+width: 100%;
+border: 1px solid black;
+margin-bottom: 20px;
+}
+.custom-select-tags{
+    height: 50px;
+border-radius: 3%;
+margin-top: 10px;
+width: 100%;
+border: 1px solid black;
+margin-bottom: 20px;
+}
+.form-control:focus {
+    border-color: green;
+    box-shadow: none; 
+  }
+  .form-label{
+    font-weight: 600 !important;
+  }
+  .form-control{
+    border-radius: 1%;
+margin-top: 10px;
+width: 100%;
+border: 1px solid black;
+margin-bottom: 20px;
+  }
+.button-submit{
+  
+    background-color: black;
+    color: white;
+    border-radius: 2%;
+    padding: 2px;
+    width: 50%;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    margin: 0 auto;
+
+}
+.button-submit:hover{
+background-color: #35A29F;
+color: black;
+transition-duration: 2s;
+color:white;
+font-size: 24px;
+}
+.send{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+    .contact{
+        text-align: center;
+        animation: changeColor 6s infinite alternate;
+        font-size: larger;
+        font-weight: 700;
+        }
+        
+        @keyframes changeColor {
+            0% {
+              color: green;
+            }
+            33% {
+              color: #9400FF;
+            }
+            66% {
+              color: #E55604;
+            }
+            100% {
+              color: #C70039;
+            }
+          }
+
+  

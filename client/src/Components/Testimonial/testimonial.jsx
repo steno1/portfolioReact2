@@ -8,13 +8,6 @@ import React from 'react'
 import Slider from "react-slick";
 import { testimonialData } from "../../data";
 
-// Importing necessary modules from React and react-slick library
-
-
-
-// Importing data from an external source (presumably)
-
-
 // Defining a functional component named Testimonial
 const Testimonial = () => {
 

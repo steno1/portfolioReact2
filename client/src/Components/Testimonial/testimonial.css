@@ -1,7 +1,8 @@
 .testimonial-section{
     margin-top: 70px;
-    height: 80vh;
+    height: 65vh;
    text-align: center;
+   
 }
 .content-slider-main{
     margin: 5px;
@@ -15,7 +16,7 @@
     margin: 10px;
     text-align: center;
     border-radius: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     cursor: pointer;
     height: 250px;
     
@@ -35,9 +36,7 @@
 }
 .content-slider:hover{
   background-color: #005B41;
-  
 
- 
 }
 .slick-next::before{
   color: green !important;
