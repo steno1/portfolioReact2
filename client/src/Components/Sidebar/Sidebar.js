@@ -18,7 +18,6 @@ const Sidebar = () => {
 
     // Declaring a function handleExpandClick which toggles the value of expandSideBar.
     const handleExpandClick=()=>{
-        console.log('Clicked sidebar icon'); 
         setExpandSideBar(!expandSideBar)
     }
 

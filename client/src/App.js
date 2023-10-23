@@ -4,7 +4,7 @@ import React from 'react'
 import Sidebar from './Components/Sidebar/Sidebar'
 import TechStack from './Components/TechStack/TechStack'
 import Testimonial from './Components/Testimonial/testimonial'
-import WorkExperience2 from './Components/WorkExperience/WorkExperience2'
+import WorkExperience from './Components/WorkExperience/WorkExperience'
 const App = () => {
   return (
  <>
@@ -12,7 +12,7 @@ const App = () => {
  <About/>
  <TechStack/>
  <Project/>
- <WorkExperience2/>
+ <WorkExperience/>
  <Testimonial/>
 
  

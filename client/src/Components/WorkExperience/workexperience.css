@@ -1,0 +1,28 @@
+.pButton{
+    width: 70px !important;
+    background-color: white !important;
+    color: black !important;
+    font-size: 13px !important;
+    border-radius: 10% !important;
+}
+.pButton:hover{
+    background-color: black !important;
+    color:white !important;
+    width: 80px !important;
+}
+.myDate{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+@media (max-width: 767px) {
+    
+    .pButton{
+        width: 70px !important;
+        background-color: white !important;
+        color: black !important;
+    }
+     
+     }

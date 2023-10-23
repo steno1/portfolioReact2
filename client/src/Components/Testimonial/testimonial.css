@@ -33,6 +33,20 @@
     object-fit: cover;
     margin-top: -30px;
 }
+.content-slider:hover{
+  background-color: #005B41;
+  
+
+ 
+}
+.slick-next::before{
+  color: green !important;
+font-size: 30px !important;
+}
+.slick-prev::before{
+  color: rgb(226, 103, 42) !important;
+  font-size: 30px !important;
+  }
 
 .section-title h2{
     text-align: center;
@@ -74,4 +88,17 @@
             100% {
               color: #3085C3;
             }
+      }
+
+      @media (max-width: 600px) {
+        .slick-next::before{
+          color: green !important;
+        font-size: 15px !important;
+        margin-right: 35px !important;
+        padding-right: 10px !important;
+        }
+        .slick-prev::before{
+          color: rgb(240, 95, 23) !important;
+          font-size: 15px !important;
+          }
       }

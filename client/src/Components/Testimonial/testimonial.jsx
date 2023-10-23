@@ -99,9 +99,9 @@ const Testimonial = () => {
                 />
 
                 {/* Testimonial description, name, and position */}
-                <p>{item.description}</p>
+    
                 <p>{item.name}</p>
-                <p>{item.position}</p>
+                <p>{item.description}</p>
               </div>
             </div>
           ))}

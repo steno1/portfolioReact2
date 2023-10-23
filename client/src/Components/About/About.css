@@ -26,6 +26,13 @@
     cursor: pointer;
     
 }
+.about-details:hover{
+    background-color: #FFFADD;
+    transition-duration: 2s;
+    color: black;
+    font-size: 17px;
+    
+}
 .about-title h5{
     margin-right: 500px;
 }
