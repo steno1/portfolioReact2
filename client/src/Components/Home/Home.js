@@ -9,7 +9,7 @@ const Home = () => {
   
   // The component returns JSX.
   return (
-    <div className="container-fluid home">
+    <div className="container-fluid home" id="home">
         <div className="container home-content">
           <div className="time"><Time /></div>
           

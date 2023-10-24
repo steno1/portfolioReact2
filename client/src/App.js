@@ -1,11 +1,15 @@
+import "./app.css"
+
 import About from './Components/About/About'
 import Contact from './Components/contact/Contact'
 import Project from './Components/projects/Project'
 import React from 'react'
+import ScrollToTop from "react-scroll-to-top";
 import Sidebar from './Components/Sidebar/Sidebar'
 import TechStack from './Components/TechStack/TechStack'
 import Testimonial from './Components/Testimonial/testimonial'
 import WorkExperience from './Components/WorkExperience/WorkExperience'
+
 const App = () => {
   return (
  <>
@@ -16,6 +20,8 @@ const App = () => {
  <WorkExperience/>
  <Testimonial/>
  <Contact/>
+ <ScrollToTop smooth={true} style={{borderRadius:"50%", backgroundColor:"black"}} 
+ color="white" height='20' width='20' top={600}/>
 
  
  

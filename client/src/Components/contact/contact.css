@@ -12,6 +12,7 @@
     border-radius: 10%;
     object-fit: cover;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .contact-form input{

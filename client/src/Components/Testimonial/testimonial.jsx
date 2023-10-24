@@ -56,7 +56,7 @@ const Testimonial = () => {
 
   // Return JSX (React elements) representing the component's UI
   return (
-    <div className="container testimonial-section">
+    <div className="container testimonial-section" id="Testimonials">
 
       {/* Section title */}
       <div className="section-title">

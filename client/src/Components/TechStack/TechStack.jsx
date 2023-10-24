@@ -18,7 +18,7 @@ const TechStack = () => {
 
     // The component renders JSX.
     return (
-        <div className="container techStack-section">
+        <div className="container techStack-section" id="tech">
             <div className="section-title">
                 <h2>Tech Stack</h2>
             </div>

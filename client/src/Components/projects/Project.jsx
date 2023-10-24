@@ -10,7 +10,7 @@ const Project = () => {
 
     // The component renders JSX.
     return (
-        <div className="container">
+        <div className="container" id="Projects">
             <div className="section-title">
                 <h2>Projects</h2>
             </div>

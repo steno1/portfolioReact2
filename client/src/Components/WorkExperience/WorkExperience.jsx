@@ -8,17 +8,6 @@ import { FcFactory } from "react-icons/fc";
 import React from 'react'
 import WorkData from "../../WorkExperienceData"
 
-// Importing a CSS file for styling.
-
- // Importing a CSS file for styling.
-
- // Importing components from the 'react-vertical-timeline-component' library.
-
- // Importing an icon component from the 'react-icons' library.
- // Importing an icon component from the 'react-icons' library.
- // Importing the React library.
- // Importing a data file named 'WorkExperienceData'.
-
 const WorkExperience = () => {  // Defining a functional component named 'WorkExperience'.
     const colors=[  // Defining an array named 'colors' containing two color codes.
         "#004225",
@@ -29,7 +18,7 @@ const WorkExperience = () => {  // Defining a functional component named 'WorkEx
         <FcFactory />   
       ];
   return (
-    <div className="container"> 
+    <div className="container" id="work"> 
 
      <div className="section-title"> 
         <h2>Work Experience</h2>  

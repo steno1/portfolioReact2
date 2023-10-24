@@ -32,8 +32,6 @@ color:#aab2c3;
     border-radius: 5px;
     margin-top: 50px;
     margin-right: 50px;
-   
-
 }
 
 .icon-for-sidebar-expand-and-collapse{
@@ -42,5 +40,11 @@ color:#aab2c3;
    justify-content: right;
    cursor: pointer;
    
+}
+.nav-item .active{
+    border-left: 2px solid white;
+    background-color: rgb(89, 83, 83);
+    padding: 8px;
+    border-radius: 5%;
 }
 
