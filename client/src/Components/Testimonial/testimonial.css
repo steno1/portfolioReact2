@@ -1,5 +1,5 @@
 .testimonial-section{
-    margin-top: 70px;
+    margin-top: 30px;
     height: 65vh;
    text-align: center;
    
@@ -100,4 +100,11 @@ font-size: 30px !important;
           color: rgb(240, 95, 23) !important;
           font-size: 15px !important;
           }
+
+          .section-title h2 {
+            margin-left: 65px;
+            
+          }
       }
+
+      

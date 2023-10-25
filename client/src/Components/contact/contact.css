@@ -1,5 +1,5 @@
 .contact-section{
-    height: 650px;
+    height: 750px;
     color:green;
     background-color:#EEEEEE;
     padding: 10px;
@@ -49,7 +49,7 @@ margin-bottom: 20px;
   
     background-color: black;
     color: white;
-    border-radius: 2%;
+    border-radius: 4%;
     padding: 2px;
     width: 50%;
     margin-top: 20px;
@@ -59,6 +59,14 @@ margin-bottom: 20px;
     justify-self: center;
     margin: 0 auto;
 
+}
+.phone{
+  font-weight: 600;
+  color: black;
+}
+.email{
+  font-weight: 600;
+  color: black;
 }
 .button-submit:hover{
 background-color: #35A29F;
@@ -95,5 +103,18 @@ font-size: 24px;
               color: #C70039;
             }
           }
+          .note {
+            font-size: 14px;
+            color: #555;
+            margin-top: 10px;
+          }
+          
 
-  
+          @media (max-width: 768px) {
+          .button-submit{
+          
+            margin-bottom: 30px;
+            border-radius: 10%;
+          }
+          }
+          

@@ -1,9 +1,6 @@
 .sidebar-section{
 display: flex;
 text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
-
-
-
 background: rgb(66, 16, 16);
 background: radial-gradient(circle, rgb(10, 20, 65) 0%, rgba(77, 75, 75, 0.835) 100%);
 color:#aab2c3;
@@ -44,7 +41,9 @@ color:#aab2c3;
 .nav-item .active{
     border-left: 2px solid white;
     background-color: rgb(89, 83, 83);
-    padding: 8px;
+    padding: 4px;
     border-radius: 5%;
 }
+
+
 

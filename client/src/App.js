@@ -2,6 +2,8 @@ import "./app.css"
 
 import About from './Components/About/About'
 import Contact from './Components/contact/Contact'
+import Education from "./Components/Education/Education"
+import NavBarMobile from "./Components/NavBarMobile"
 import Project from './Components/projects/Project'
 import React from 'react'
 import ScrollToTop from "react-scroll-to-top";
@@ -14,10 +16,12 @@ const App = () => {
   return (
  <>
  <Sidebar/>
+ <NavBarMobile/>
  <About/>
  <TechStack/>
  <Project/>
  <WorkExperience/>
+<Education/>
  <Testimonial/>
  <Contact/>
  <ScrollToTop smooth={true} style={{borderRadius:"50%", backgroundColor:"black"}} 

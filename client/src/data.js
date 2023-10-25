@@ -162,10 +162,23 @@ description:"very nice person and he is a perfect collaborator",
 img:""
 }
 
-
 ]
+const EducationData=[
+    {
+      name:"Ebonyi State University, Nigeria.",
+      degree:" B.sc in Geology and Exploration Geophysics.",
+      year:"2008-2015",
+  
+    },
+    {
+      name:"Sacred Heart Seminary, Rumuibekwe PortHarcourt, Nigeria.",
+      degree:" West African Examination Council (WAEC).",
+      year:"2001-2007",
+  
+    }
+  ]
 
     
 
 
-export {data, colors, testimonialData}
+export {data, colors, testimonialData, EducationData}

@@ -24,5 +24,19 @@
         background-color: white !important;
         color: black !important;
     }
+    .section-title h2 {
+        margin-left: 65px;
+        
+      }
+    .myDate {
+         
+        color: white;
+      }
+      #work{
+        width: 100%;
+      }
      
      }
+
+
+     
