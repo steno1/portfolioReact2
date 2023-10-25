@@ -14,7 +14,7 @@ import WorkExperience from './Components/WorkExperience/WorkExperience'
 
 const App = () => {
   return (
- <>
+ < div className="containerAll">
  <Sidebar/>
  <NavBarMobile/>
  <About/>
@@ -24,12 +24,12 @@ const App = () => {
 <Education/>
  <Testimonial/>
  <Contact/>
- <ScrollToTop smooth={true} style={{borderRadius:"50%", backgroundColor:"black"}} 
- color="white" height='20' width='20' top={600}/>
+ <ScrollToTop   className="scroll-to-top" smooth={true} style={{borderRadius:"50%", backgroundColor:"black"}} 
+ color="white" height='20' width='20' top={600} />
 
  
  
- </>
+ </div>
   )
 }
 

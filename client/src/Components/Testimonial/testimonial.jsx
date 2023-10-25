@@ -78,14 +78,14 @@ const Testimonial = () => {
                   alt="testimonial pics"
                   className="center-img"
                   style={{
-                    height:"80px",
-                    width:"80px",
+                    height:"120px",
+                    width:"100px",
                     margin:"0 auto",
                     display:"block",
                     objectFit:"cover",
                     marginTop:"10px",
                     borderRadius:"50%",
-                    marginBottom:"10px",
+                    marginBottom:"2px",
                     alignItems:"center",
                     border:"2px solid yellow"
                   }}

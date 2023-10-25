@@ -21,7 +21,7 @@ alt=" profile pics"/>
   </div>
 <p> I'm Onu Princeley Toochukwu, a passionate Full Stack Developer specializing in the MERN stack.
 
-My journey in web development has led me to create a diverse range of projects, including user management systems, eCommerce platforms, etc. Armed with a strong grasp of the fundamentals and proficiency in technologies such as JavaScript, HTML, CSS, React, Redux, Node.js,etc. And MongoDB, I'm ready to embark on my professional journey as a web developer.
+My journey in web development has led me to create a diverse range of projects, including user management systems, eCommerce platforms, etc. Armed with a strong grasp of the fundamentals and proficiency in technologies such as JavaScript, HTML, CSS, React, Redux, Node.js, MongoDB,etc. I'm ready to embark on my professional journey as a web developer.
 
 My excitement for crafting digital experiences knows no bounds, and I'm confident in my ability to contribute effectively in an industry or agency setting. I'm eager to bring my enthusiasm and skills to a dynamic team, where I can continue to learn and grow.
 

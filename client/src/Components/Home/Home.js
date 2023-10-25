@@ -1,5 +1,6 @@
 import "./Home.css"
 
+import { Link } from 'react-scroll';
 import Time from "../Time/Time";
 import Typewriter from 'typewriter-effect';
 import myCv from "./Pdf newest.pdf"
@@ -36,8 +37,13 @@ const Home = () => {
           {/* Render a div with class 'button-for-action'. */}
           <div className="button-for-action">
 
+          <Link to="contacts" spy={true} smooth={true}>
+              
             {/* Render a button with class 'btn' and text 'Hire me'. */}
-            <button className="btn">Hire me</button>
+            <button className="btn">Hire me</button> 
+              </Link>
+
+
 
             {/* Render a button with class 'btn2' and a link to download the resume. */}
             <button className="btn2">

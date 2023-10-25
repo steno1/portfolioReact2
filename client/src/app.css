@@ -13,3 +13,9 @@
 ::-webkit-scrollbar-thumb:hover{
     background-color: blueviolet;
 }
+@media (max-width: 600px) {
+    .scroll-to-top {
+      display: none;
+    }
+  }
+

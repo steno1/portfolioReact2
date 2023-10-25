@@ -10,7 +10,7 @@ const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    jobType: 'Full-Time',
+    //jobType: 'Full-Time',
     message: ''
   });
 
@@ -37,7 +37,7 @@ const Contact = () => {
     setFormData({
       name: '',
       email: '',
-      jobType: 'Full-Time',
+     // jobType: 'Full-Time',
       message: ''
     });
   };
@@ -85,6 +85,7 @@ const Contact = () => {
                   placeholder="Your Email"
                 />
               </div>
+              {/* 
               <div className="contact-form">
                 <label className="form-label">Job Types</label>
                 <select
@@ -98,7 +99,7 @@ const Contact = () => {
                   <option value="Contract">Contract</option>
                   <option value="Remote">Remote</option>
                 </select>
-              </div>
+              </div> */}
               <div className="contact-form">
                 <label className="form-label">Message</label>
                 <textarea
