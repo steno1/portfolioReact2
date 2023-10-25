@@ -19,13 +19,13 @@ alt=" profile pics"/>
   <div className="about-title">
 <h3>About me</h3>
   </div>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-Pellentesque placerat ante a hendrerit pharetra. Nam vitae ex 
-a augue malesuada efficitur. Vivamus turpis tortor, pellentesque
- eget pharetra eu, tristique id lacus. Donec at nunc nec neque 
- auctor viverra ac ut odio. Proin dictum tellus vel feugiat tristique.
-  Crasnon nulla sit amet diam tincidunt dapibus. Nullam a nunc risus.
+<p> I'm Onu Princeley Toochukwu, a passionate Full Stack Developer specializing in the MERN stack.
+
+My journey in web development has led me to create a diverse range of projects, including user management systems, eCommerce platforms, etc. Armed with a strong grasp of the fundamentals and proficiency in technologies such as JavaScript, HTML, CSS, React, Redux, Node.js,etc. And MongoDB, I'm ready to embark on my professional journey as a web developer.
+
+My excitement for crafting digital experiences knows no bounds, and I'm confident in my ability to contribute effectively in an industry or agency setting. I'm eager to bring my enthusiasm and skills to a dynamic team, where I can continue to learn and grow.
+
+Let's collaborate and create something extraordinary together.
 </p>
 </div>
 </div>
