@@ -1,6 +1,6 @@
 # Web Developer Portfolio Documentation
 
-This documentation provides detailed instructions for setting up and deploying your web developer portfolio site.
+This documentation provides detailed instructions for setting up and deploying my web developer portfolio site.
 It outlines the steps i followed to create my portfolio site using React and various libraries and components.
 
 ## Table of Contents
