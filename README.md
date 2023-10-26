@@ -1,6 +1,6 @@
 Portfolio Website Documentation
 This documentation provides step-by-step instructions for setting up and deploying your web developer portfolio site,
-detailing the steps you followed to create your portfolio site using React and various libraries and components.
+detailing the steps you followed to create your portfolio site using React and various libraries and components..
 
 Getting Started
 1. Create React App
