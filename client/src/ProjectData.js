@@ -36,7 +36,7 @@ const ProjectData=[
     {
         id: 3,  // Unique ID for the project
         name:"PrinceleyPortfolio",
-        des:"UrbanTrend is a cutting-edge e-commerce platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js) that revolutionizes the online shopping experience for urban fashion enthusiasts. This dynamic web application offers a wide range of trendy apparel, footwear, and accessories curated for individuals with a penchant for contemporary urban styles.",
+        des:"My portfolio project is a dynamic and responsive web application built with React. It includes sections for showcasing my skills, About Me, Education, Work Experience, Projects, and Testimonials. Users can also send messages and emails via the Contact page. The project is hosted on GitHub Pages for easy access.",
         projectLink:"https://steno1.github.io/portfolioReact2/",
         gitHubLink:"https://github.com/steno1/portfolioReact2/tree/main",
         techUsed:[
