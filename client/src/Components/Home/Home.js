@@ -37,11 +37,13 @@ const Home = () => {
           {/* Render a div with class 'button-for-action'. */}
           <div className="button-for-action">
 
-          <Link to="contacts" spy={true} smooth={true}>
+          
               
             {/* Render a button with class 'btn' and text 'Hire me'. */}
-            <button className="btn">Hire me</button> 
-              </Link>
+            <button className="btn">
+              <Link  to="contacts" spy={true} smooth={true}>Hire me</Link>
+              </button> 
+              
 
 
 
