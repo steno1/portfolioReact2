@@ -11,7 +11,7 @@ It outlines the steps i followed to create my portfolio site using React and var
 
 ### 1. Create React App
 
-To initiate my web developer portfolio, create a new React application with the following command:
+To initiate your web developer portfolio, create a new React application with the following command:
 
 ```
 npx create-react-app my-portfolio
@@ -25,7 +25,6 @@ Enhance the styling and layout by integrating Bootstrap into your project. Use t
 npm install bootstrap
 Import the Bootstrap CSS in your src/index.js file:
 
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 4. Create Home and Sidebar Components
 Structure your portfolio layout by creating the Home.js and Sidebar.js components along with their respective CSS files.
@@ -33,11 +32,9 @@ Structure your portfolio layout by creating the Home.js and Sidebar.js component
 5. Install React Icons
 To incorporate icons into your project, install the react-icons library using:
 
-
 npm install react-icons --force
 6. Install Typewriter Effect
 For typewriter-like text animations, add the typewriter-effect library:
-
 
 npm install typewriter-effect
 7. Add "Hire Me" and "Get Resume" Buttons
@@ -52,11 +49,9 @@ Design sections to display your portfolio projects, making it easy for visitors 
 10. Create Work Experience Section
 To present your work experience, make use of the react-vertical-timeline-component. Install it with:
 
-
 npm install react-vertical-timeline-component
 11. Create Testimonial Section
 For testimonials, employ the react-slick library. Install it with:
-
 
 npm install react-slick --save
 12. Create Contact Page
@@ -65,11 +60,9 @@ Design a contact page where users can send messages and emails to get in touch w
 13. Implement Scroll-to-Top Feature
 Add a scroll-to-top button and customize the scroll bar design using the react-scroll-to-top library:
 
-
 npm install react-scroll-to-top
 14. Implement Smooth Scrolling in Side Menu
 Enable smooth scrolling within your side menu list to navigate to any section with the react-scroll library:
-
 
 npm install react-scroll
 15. Create Education Component
@@ -79,11 +72,11 @@ Design a component to showcase your educational background.
 Develop a contact form using JavaScript, enabling users to send messages and emails, capturing user data for future use.
 
 Deployment
-To deploy your website on GitHub Pages:
+To deploy the website on GitHub Pages:
 
 Push your code to a GitHub repository.
 Go to the Settings section of your GitHub repository.
 Scroll down to the GitHub Pages section.
 In the Source section, choose the branch you want to deploy (typically the main or master branch).
 Click Save.
-Your portfolio site will be accessible at https://yourusername.github.io/your-repository-name.
+Your portfolio site will be accessible at https://yourusername.github.io/your-repository-name
