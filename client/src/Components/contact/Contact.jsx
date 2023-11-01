@@ -28,8 +28,9 @@ const Contact = () => {
     // Encoding recipient email, subject, and body for 'mailto' link
     const recipient = encodeURIComponent('onuprinceley@gmail.com');
     const subject = encodeURIComponent('Portfolio Contact');
-    const body = encodeURIComponent('Please leave your message here.');
+   
 
+    const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\nMessage:\n${formData.message}`);
     // Redirecting to user's default email client
     window.location.href = `mailto:${recipient}?subject=${subject}&body=${body}`;
   
@@ -64,7 +65,7 @@ const Contact = () => {
 
             <form>
               <div className="contact-form">
-                <label className="form-label">Name</label>
+                <label className="form-label" >Name</label>
                 <input
                   type="text"
                   className="form-control"

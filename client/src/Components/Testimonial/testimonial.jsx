@@ -80,7 +80,8 @@ const Testimonial = () => {
                   style={{
                     height:"120px",
                     width:"100px",
-                    margin:"0 auto",
+                  margin:"0 auto",
+                    
                     display:"block",
                     objectFit:"cover",
                     marginTop:"10px",
