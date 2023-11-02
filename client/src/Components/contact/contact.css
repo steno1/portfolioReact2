@@ -4,13 +4,14 @@
     background-color:#EEEEEE;
     padding: 10px;
     border-radius: 2%;
+    margin-top: 25px;
    
 }
 .contact-form-image img{
-    height: 350px;
+    height: 300px;
     width: 100%;
-    border-radius: 10%;
-    object-fit: cover;
+    border-radius: 20%;
+    object-fit: contain;
     margin-bottom: 10px;
     cursor: pointer;
 }

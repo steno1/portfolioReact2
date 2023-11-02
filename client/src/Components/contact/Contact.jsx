@@ -3,7 +3,7 @@ import "./contact.css"; // Importing external CSS file for styling
 import React, { useState } from 'react'; // Importing the React library and 'useState' hook
 
 import { BsFillSendFill } from "react-icons/bs"; // Importing a specific icon component
-import profilePics from "../Images/princeley.jpg"; // Importing an image
+import profilePics from "../Images/steno.jpg"; // Importing an image
 
 const Contact = () => {
   // Using the 'useState' hook to create a state for form data

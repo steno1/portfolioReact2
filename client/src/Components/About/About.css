@@ -3,13 +3,14 @@
 .about-image img{
     height: 250px;
     width: 250px;
-    border-radius: 40%;
+    border-radius: 20%;
     margin-left: 120px;
     margin-top: 40px;
-    border: 2px solid rgb(116, 238, 116);
+   
     cursor: pointer;
-    object-fit: cover;
+    object-fit: contain;
     margin-bottom: 20px;
+    
     transition: transform 2s;
    
 }
