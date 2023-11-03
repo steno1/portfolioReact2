@@ -3,7 +3,7 @@ import "./Home.css"
 import { Link } from 'react-scroll';
 import Time from "../Time/Time";
 import Typewriter from 'typewriter-effect';
-import myCv from "./Pdf newest.pdf"
+import myCv from "./Resume.pdf"
 
 // Define a functional component named `Home`.
 const Home = () => {
