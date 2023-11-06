@@ -1,133 +1,128 @@
+/* Home.css */
 
 
-.home{
-    height: 260px;
-   color:white;
-   
-}
-.home-content h1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 120px;
-    padding: 15px;
-    line-height: 10px;
-    margin-top: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 300;
-
-}
-
-.home-content h2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 300;
-    margin-left: 120px;
-    color: #A6FF96;
-}
-
-    .time {
-word-wrap: break-word;
-    }
+.home {
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px; 
   
-    .button-for-action{
-display: flex;
-margin-left: 130px;
-    }
-   
-    .btn {
-        background: #41542e;
-        background-image: -webkit-linear-gradient(top, #41542e, #4b9692);
-        background-image: -moz-linear-gradient(top, #41542e, #4b9692);
-        background-image: -ms-linear-gradient(top, #41542e, #4b9692);
-        background-image: -o-linear-gradient(top, #41542e, #4b9692);
-        background-image: linear-gradient(to bottom, #41542e, #4b9692);
-        -webkit-border-radius: 16;
-        -moz-border-radius: 16;
-        border-radius: 16px;
-        font-family: Georgia;
-        color: #ffffff;
-        font-size: 20px;
-        padding: 10px 20px 10px 20px;
-        text-decoration: none;
-        width: 150px;
-        margin-right: 5px;
-        height: 50px;
-      }
+}
 
-      
-      .btn:hover {
-        background: #8dbf37;
-        background-image: -webkit-linear-gradient(top, #8dbf37, #47361c);
-        background-image: -moz-linear-gradient(top, #8dbf37, #47361c);
-        background-image: -ms-linear-gradient(top, #8dbf37, #47361c);
-        background-image: -o-linear-gradient(top, #8dbf37, #47361c);
-        background-image: linear-gradient(to bottom, #8dbf37, #47361c);
-        text-decoration: none;
-      }
+/* Add this CSS to your existing Home.css file */
+.mobile-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobile-nav a {
+  margin: 10px;
+}
 
 
+.button-for-action {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+/* Set Typewriter effect color to white */
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px; /* Adjust font size as needed */
+  color: white; 
+}
+.typewriter {
+  color: white; 
+}
 
-      .btn2 {
-        background: #ab3e20;
-        background-image: -webkit-linear-gradient(top, #ab3e20, #282b2b);
-        background-image: -moz-linear-gradient(top, #ab3e20, #282b2b);
-        background-image: -ms-linear-gradient(top, #ab3e20, #282b2b);
-        background-image: -o-linear-gradient(top, #ab3e20, #282b2b);
-        background-image: linear-gradient(to bottom, #ab3e20, #282b2b);
-        -webkit-border-radius: 16;
-        -moz-border-radius: 16;
-        border-radius: 16px;
-        font-family: Georgia;
-        color: #ffffff;
-        font-size: 20px;
-        padding: 10px 20px 10px 20px;
-        text-decoration: none;
-        height: 50px;
+.btn2 {
+  background-color: #007bff; /* Button background color */
+  color: white; /* Text color */
+  border: none; /* Remove button border */
+  padding: 10px 20px; /* Add padding to the button */
+  border-radius: 5px; /* Add rounded corners */
+  font-size: 16px; /* Adjust font size */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s, color 0.3s; /* Smooth color transition on hover */
 
-      }
-      
-      .btn2:hover {
-        background: #886dc9;
-        background-image: -webkit-linear-gradient(top, #886dc9, #47361c);
-        background-image: -moz-linear-gradient(top, #886dc9, #47361c);
-        background-image: -ms-linear-gradient(top, #886dc9, #47361c);
-        background-image: -o-linear-gradient(top, #886dc9, #47361c);
-        background-image: linear-gradient(to bottom, #886dc9, #47361c);
-        text-decoration: none;
-      }
+  /* Hover state */
+  &:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+  }
+}
 
-      a {
-        text-decoration: none; 
-        color: inherit; 
-    }
 
-      @media (max-width: 767px) {
-        .home-content{
-margin-left: -80px;
-width: 400px;
-        }
-        .btn {
-            width: 120px; 
-            font-size: 15px;
-            padding: 5px 10px 5px 10px;
-            height: 60px;
-        }
-        .btn2 {
-            width: 120px; 
-            font-size: 15px;
-            padding: 5px 10px 5px 10px;
-            height: 60px;
-        }
-        .button-for-action{
-            
-            margin-left: 100px;}
-         
-          .time{
-          
-           margin-left: 120px;
-            
-          }
-    }
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* Media query for the specific screen size (360 x 740) */
+@media (max-width: 360px) and (max-height: 740px) {
+  .home-content {
+    font-size: 20px; 
+  }
+
+
+.mobile-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobile-nav a {
+  margin: 10px;
+}
+
+
+  .btn2 {
+    font-size: 18px; 
+  }
+}
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .home-content {
+    font-size: 18px; 
+  }
+
+  .btn2 {
+    font-size: 14px;
+  }
+}
+/* Media query for smaller screens (e.g., iPhone 5/SE) */
+@media (max-width: 320px) {
+  .home-content {
+    font-size: 16px; 
+  }
+
+  .btn2 {
+    font-size: 14px;
+  }
+}
+
+/* Media query for common mobile screens (e.g., iPhone 6/7/8, Samsung Galaxy S8/S9) */
+@media (max-width: 375px) {
+  .home-content {
+    font-size: 18px; 
+  }
+
+  .btn2 {
+    font-size: 16px; 
+  }
+}
+
+/* Media query for larger screens (e.g., iPhone X/XS/11, Samsung Galaxy S10/S21) */
+@media (max-width: 414px) {
+  .home-content {
+    font-size: 20px;
+  }
+
+  .btn2 {
+    font-size: 18px; 
+  }
+}

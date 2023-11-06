@@ -1,110 +1,62 @@
-.testimonial-section{
-    margin-top: 30px;
-    height: 65vh;
-   text-align: center;
-   
-}
-.content-slider-main{
-    margin: 5px;
-    border-radius: 10px;
+/* CSS for Testimonial Section */
+.testimonial-section {
+  margin-top: 30px;
+  height: 65vh;
+  text-align: center;
 }
 
-.content-slider{
-    padding: 15px;
-    color:white;
-    background-color: #B2533E;
-    margin: 10px;
-    text-align: center;
-    border-radius: 10px;
-    margin-bottom: 5px;
-    cursor: pointer;
-    height: 300px;
-    
+.content-slider-main {
+  margin: 5px;
+  border-radius: 10px;
+}
 
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+.content-slider {
+  padding: 15px;
+  color: black;
+  background-color: #F5F7F8;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  height: 300px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
-.content-slider img.center-image{
-    height: 50px;
-    width: 50px;
-    border-radius: 40%;
-    display: block;
-    margin: 0 auto;
-    object-fit: cover;
-    margin-top: 30px;
-}
-.content-slider:hover{
-  background-color: #005B41;
 
+.content-slider img.center-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 40%;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  margin-top: 30px;
 }
-.slick-next::before{
-  color: green !important;
-font-size: 30px !important;
-}
-.slick-prev::before{
-  color: rgb(226, 103, 42) !important;
+
+.slick-next::before,
+.slick-prev::before {
+  color: black !important;
   font-size: 30px !important;
+}
+
+.section-title h2,
+.card-title {
+  text-align: center;
+  font-size: larger;
+  font-weight: 700;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 767px) {
+  .slick-next{
+    display: block !important;
+    margin-right: 30px; 
   }
-
-.section-title h2{
-    text-align: center;
-    animation: changeColor 6s infinite alternate;
-    font-size: larger;
-    font-weight: 700;
-    }
-    @keyframes changeColor {
-        0% {
-          color: green;
-        }
-        33% {
-          color: #9400FF;
-        }
-        66% {
-          color: #E55604;
-        }
-        100% {
-          color: #C70039;
-        }
-      }
-
-      .card-title{
-        text-align: center;
-        animation: changeColor 6s infinite alternate;
-        font-size: larger;
-        font-weight: 700;
-        }
-        @keyframes changeColor {
-            0% {
-              color: #9400FF;
-            }
-            33% {
-              color: #662549;
-            }
-            66% {
-              color: #272829;
-            }
-            100% {
-              color: #3085C3;
-            }
-      }
-
-      @media (max-width: 600px) {
-        .slick-next::before{
-          color: green !important;
-        font-size: 15px !important;
-        margin-right: 35px !important;
-        padding-right: 10px !important;
-        }
-        .slick-prev::before{
-          color: rgb(240, 95, 23) !important;
-          font-size: 15px !important;
-          }
-
-          .section-title h2 {
-            margin-left: 65px;
-            
-          }
-      }
-
-      
+  
+  .slick-prev {
+    display: block !important;
+    margin-left: 20px; 
+  }
+}

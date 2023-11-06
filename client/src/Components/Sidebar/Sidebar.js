@@ -14,7 +14,7 @@ import { useState } from "react";
 // Defining a functional component named Sidebar.
 const Sidebar = () => {
     // Declaring a state variable expandSideBar and its setter setExpandSideBar using the useState hook.
-    const [expandSideBar, setExpandSideBar]=useState(true)
+    const [expandSideBar, setExpandSideBar]=useState(false)
 
     // Declaring a function handleExpandClick which toggles the value of expandSideBar.
     const handleExpandClick=()=>{

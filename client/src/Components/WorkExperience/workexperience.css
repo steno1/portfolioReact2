@@ -1,42 +1,20 @@
-.pButton{
-    width: 70px !important;
-    background-color: white !important;
+/* WorkExperience.css */
+.work-experience-section {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .section-title {
+    text-align: center;
+  }
+  
+  .work-experience-item {
+    background-color: #F5F7F8;
+    padding: 20px;
     color: black !important;
-    font-size: 13px !important;
-    border-radius: 10% !important;
-}
-.pButton:hover{
-    background-color: black !important;
-    color:white !important;
-    width: 80px !important;
-}
-.myDate{
-    color: black;
-    font-size: 18px;
-    font-weight: 600;
-}
-
-
-@media (max-width: 767px) {
-    
-    .pButton{
-        width: 70px !important;
-        background-color: white !important;
-        color: black !important;
-    }
-    .section-title h2 {
-        margin-left: 65px;
-        
-      }
-    .myDate {
-         
-        color: white;
-      }
-      #work{
-        width: 100%;
-      }
-     
-     }
-
-
-     
+    margin: 20px 0;
+    border-radius: 10px;
+  }
+  
+  /* Adjust styles as needed for work experience items */
+  

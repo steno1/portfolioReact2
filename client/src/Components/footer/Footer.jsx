@@ -7,7 +7,7 @@ const Footer = () => {
 
   // Define a style object for mobile devices
   const mobileStyle = {
-    marginTop: '380px', // Adjust the margin-top for padding
+   
   };
 
   // Return the footer component

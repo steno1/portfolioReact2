@@ -26,7 +26,7 @@ const ProjectList = ({ name, des, projectLink, gitHubLink, techUsed }) => {
                 <h4>{name}</h4>
                 <p className="fcExpand">
                     {/* Conditional rendering of icons based on the value of `show`. */}
-                    {show ? <FcCollapse size={20} /> : <FcExpand size={20} />}
+         {show ? <FcCollapse size={20} /> : <FcExpand size={20} />}
                 </p>
             </div>
 
@@ -43,9 +43,9 @@ const ProjectList = ({ name, des, projectLink, gitHubLink, techUsed }) => {
             <div className="row">
                 {/* Map over the `techUsed` prop and render a list of technologies. */}
                 {techUsed && techUsed.map((tech, index) => (
-                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6" key={index}>
+      <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6" key={index}>
                         <div className="tech-used-in-project">
-                            <p>{tech.techName}</p>
+                            
                         </div>
                     </div>
                 ))}

@@ -1,10 +1,43 @@
+
+
+/* Add this CSS to your contact.css or a separate CSS file */
+/* Reset margins and paddings for the body and container */
+body{
+  margin: 0;
+  padding: 0;
+  height: 550px;
+}
+/* contact.css */
+.container.contact-section {
+  overflow-y: auto; /* Enable vertical scrolling */
+  height: 100vh; /* Set the height to fill the entire viewport */
+  margin: 0;
+  padding: 5px;
+  height: 550px;
+}
+
+/* Other styles for your Contact component... */
+
+
+/* Reset margins and paddings for the row */
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+/* Adjust the margin for the contact-form-design */
+.contact-form-design {
+  margin-top: 0; /* Set to 0 or adjust as needed */
+}
+
+
 .contact-section{
     height: 750px;
-    color:green;
-    background-color:#EEEEEE;
+    color:black;
+    background-color:#F5F7F8;
     padding: 10px;
     border-radius: 2%;
-    margin-top: 25px;
+    margin-top: 15px;
    
 }
 .contact-form-image img{
@@ -22,7 +55,7 @@ border-radius: 3%;
 margin-top: 10px;
 width: 100%;
 border: 1px solid black;
-margin-bottom: 20px;
+margin-bottom: 0px;
 }
 .custom-select-tags{
     height: 50px;
@@ -33,7 +66,7 @@ border: 1px solid black;
 margin-bottom: 20px;
 }
 .form-control:focus {
-    border-color: green;
+    border-color: black;
     box-shadow: none; 
   }
   .form-label{
@@ -81,29 +114,15 @@ font-size: 24px;
     font-weight: 600;
     font-size: 20px;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
     .contact{
         text-align: center;
-        animation: changeColor 6s infinite alternate;
+        color: black;
         font-size: larger;
         font-weight: 700;
         }
-        
-        @keyframes changeColor {
-            0% {
-              color: green;
-            }
-            33% {
-              color: #9400FF;
-            }
-            66% {
-              color: #E55604;
-            }
-            100% {
-              color: #C70039;
-            }
-          }
+      
           .note {
             font-size: 14px;
             color: #555;
@@ -114,8 +133,15 @@ font-size: 24px;
           @media (max-width: 768px) {
           .button-submit{
           
-            margin-bottom: 30px;
+            margin-bottom: 5px;
             border-radius: 10%;
+          }
+          .container.contact-section {
+            overflow-y: auto; /* Enable vertical scrolling */
+            height: 100vh; /* Set the height to fill the entire viewport */
+            margin: 0;
+            padding: 5px;
+            height: 550px;
           }
           }
           

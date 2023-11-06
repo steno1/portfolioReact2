@@ -1,0 +1,67 @@
+/* education.module.css */
+
+/* Section title */
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Container for education items */
+.container {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual education item */
+.education-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: box-shadow 0.3s;
+}
+
+/* Date */
+.education-date {
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  padding: 15px 0;
+  border-radius: 5px 5px 0 0;
+  font-size: 20px;
+}
+
+/* Date text */
+.education-date p {
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Education details */
+.education-details {
+  padding: 15px;
+  font-size: 18px;
+}
+h2{
+  color: black;
+}
+
+/* Title and degree */
+.education-details h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.education-details h4 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+/* Hover effect for education items */
+.education-item:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}

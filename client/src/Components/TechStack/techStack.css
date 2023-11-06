@@ -3,55 +3,43 @@
     margin-bottom: 40px;
 }
 
-.section-title h2{
-text-align: center;
-animation: changeColor 6s infinite alternate;
-font-size: larger;
-font-weight: 700;
-}
-@keyframes changeColor {
-    0% {
-      color: green;
-    }
-    33% {
-      color: #9400FF;
-    }
-    66% {
-      color: #E55604;
-    }
-    100% {
-      color: #C70039;
-    }
-  }
+
 .tech-content{
-    box-shadow: 10px 10px 5px 0px rgba(111, 102, 102, 0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(71, 64, 64, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(83, 76, 76, 0.75);
+background-color:#F5EEC8;
     padding: 10px;
-    color: white;
-    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+    color: black;
+   border-radius: 10%;
     margin-top: 30px;
-    background: rgb(36,18,0);
-background: linear-gradient(90deg, rgba(36,18,0,0.5791973894049807) 0%, rgba(121,45,9,0.9713542521500788) 35%, rgba(91,154,139,1) 100%);
+    width: 100%;
+  
 }
+.tech-content:hover{
+  background-color:rgb(65, 61, 61);
+      padding: 10px;
+      color: white;
+     border-radius: 10%;
+      margin-top: 30px;
+    
+  }
 .tech-content-marked{
-  background: rgb(63,94,251);
-background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1)
- 100%);
+ 
   padding: 10px;
-    color: white;
-    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+    color: black;
+    border-radius: 10%;
+   background-color: rgb(153, 143, 143);
     margin-top: 30px;
     
     height: 135px;
-  box-shadow: 10px 10px 5px 0px rgba(111, 102, 102, 0.75);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(71, 64, 64, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(83, 76, 76, 0.75);
 }
 .tech-content-marked:hover{
-  background: rgb(131,58,180);
-background: linear-gradient(90deg, rgba(131,58,180,1) 0%,
- rgba(29,47,253,1) 50%, rgba(252,176,69,1) 100%);
+  
+  padding: 10px;
+    color: rgb(155, 142, 142);
+    border-radius: 10%;
+   background-color: black;
+    margin-top: 30px;
+    
+    height: 135px;
  
  
 }
@@ -71,24 +59,7 @@ font-size: 20px;
 font-weight: 500;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.tech-content:hover{
-    background-color: #C70039;
-    color: white;
-    cursor: pointer;
-    transition-duration: 1s;
-}
-.tech-content p:hover{
-    font-size: 23px; 
-}
-.tech-content-marked p:hover{
-  font-size: 21px; 
-  color: yellow;
-}
 
-h2{
-    color: green;
-    font-size: larger;
-}
 
 .tech-number{
     border-radius: 40%;
@@ -103,9 +74,7 @@ h2{
     line-height: 40px;
 }
 .load-more-tech-stack{
-    background: rgb(36,18,0);
-background: linear-gradient(90deg, rgba(36,18,0,0.5791973894049807) 0%,
- rgba(121,45,9,0.9713542521500788) 35%, rgba(91,154,139,1) 100%);
+   background-color: black;
     width: 150px;
     padding: 10px;
     color: white;
@@ -121,8 +90,8 @@ background: linear-gradient(90deg, rgba(36,18,0,0.5791973894049807) 0%,
 
 }
 .load-more-tech-stack:hover{
-background-color: blueviolet;
-font-size: larger;
+background-color:rgb(96, 81, 81);
+
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-weight: 500;
 

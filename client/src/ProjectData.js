@@ -1,7 +1,7 @@
 const ProjectData=[
     {  
         name:"StenoSuperMarket",
-        des:"StenoSuperMarket is a cutting-edge e-commerce platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js) that revolutionizes the online shopping experience for urban fashion enthusiasts. This dynamic web application offers a wide range of trendy apparel, footwear, and accessories curated for individuals with a penchant for contemporary urban styles.",
+        des:"StenoSuperMarket is an e-commerce platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js) for fashion enthusiasts. This dynamic web application offers a wide range of trendy apparel, footwear, and accessories curated for individuals with a penchant for contemporary urban styles.",
         projectLink:"https://stenosupermarket1.onrender.com/",
         gitHubLink:"https://github.com/steno1/eCommerceRedone",
         techUsed:[
@@ -19,7 +19,7 @@ const ProjectData=[
     {
         id: 2,  // Unique ID for the project
         name:"DailyTask",
-        des:"DailyTaskApp is a cutting-edge web application for efficient task management and productivity enhancement. With a user-friendly interface, secure authentication, and insightful task statistics, it enables users to manage tasks with ease, boosting productivity and organization.",
+        des:"DailyTaskApp is a web application for efficient task management and productivity enhancement. With a user-friendly interface, secure authentication, and insightful task statistics, it enables users to manage tasks with ease, boosting productivity and organization.",
         projectLink:"https://dailytaskapp.onrender.com/",
         gitHubLink:"https://github.com/steno1/taskManagementApp/tree/master",
         techUsed:[

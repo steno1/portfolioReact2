@@ -49,6 +49,11 @@ color:#aab2c3;
     padding: 4px;
     border-radius: 5%;
 }
-
+ /* Media query to hide the sidebar on small screens */
+@media (max-width: 576px) {
+    .sidebar {
+      display: none;
+    }
+  }
 
 

@@ -4,81 +4,29 @@
 }
 
 
+
+    /* Project.css */
 .section-title h2{
-    text-align: center;
-    animation: changeColor 6s infinite alternate;
-    font-size: larger;
-    font-weight: 700;
-    }
-    @keyframes changeColor {
-        0% {
-          color: green;
-        }
-        33% {
-          color: #9400FF;
-        }
-        66% {
-          color: #E55604;
-        }
-        100% {
-          color: #C70039;
-        }
-      }
+  text-align: center !important; 
+  color: black !important;
+}
 
+  
       .project-list{
-
-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.58);
--webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.58);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.58);
+background-color: #F5F7F8;
 margin: 10px;
 padding: 10px;
 padding-bottom: 10px;
-color: white;
+color: black;
 padding-right: 15px;
 border-radius: 1%;
-background: rgb(36,18,0);
-background: linear-gradient(211deg, rgba(36,18,0,0.5791973894049807) 0%, rgba(82,121,9,1) 83%,
- rgba(154,91,109,0.2626707787607231) 100%);
-
- text-shadow: 4px 4px 2px rgba(22, 23, 24, 0.6);
-
  margin-bottom: 30px;
       }
 
-      .project-list-opened{
-        background-color: #008170;
-        transition-duration: 3s;
-        color: white;
-        padding: 10px;
-        box-shadow: 10px 10px 5px 0px rgba(177,149,222,0.75);
--webkit-box-shadow: 10px 10px 5px 0px rgba(177,149,222,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(177,149,222,0.75);
-margin-bottom: 30px;
-margin-top: 10px;
-
-      }
-
-      .fcExpand {
-        color: white !important;
-        background-color: rgb(242, 236, 236);
-        border-radius: 4%;
-      }
-      .fcExpand:hover{
-        background-color:white;
-      }
-
-      .title-and-collapse-option{
-        display: flex;
-        justify-content:space-between ;
-        margin: 5px;
-        
-        
-      }
-      
       .des{
         color: black;
         text-shadow: none;
-        background-color:#F3FDE8;
+        background-color:#F5F7F8;
         padding: 10px;
         border-radius: 2%;
         font-size: 18px;
@@ -86,41 +34,27 @@ margin-top: 10px;
       }
       .des .more{
         color: blue;
-        
-
         cursor: pointer;
         padding: 15;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       }
-      .des .more:hover{
-        color: green;
-        
-      }
-      .project-list:hover{
-background-color: yellow;
-transition-duration: 2s;
-      }
+      
       .tech-used-in-project{
       
         margin-top: 20px;
-        margin: 5px;
-       
-        
+        margin: 5px; 
       }
+
       .tech-used-in-project p{
        text-align: center;
-       background-color: #005B41;
+       background-color: white;
        border-radius: 3%;
+       color: black;
        padding: 8px;
        text-align: center;
        font-size: 15px;
       }
-      .tech-used-in-project p:hover{
-        background-color: #232D3F;
-        font-size: 16px;
-        padding: 14px;
-        cursor: pointer;
-      }
+  
       .buttons{
         display: inline;
       }
@@ -138,7 +72,6 @@ transition-duration: 2s;
         border-radius: 8%;
         width: fit-content;
         text-shadow: none;
-        transition-duration: 2s;
        
       }
       
@@ -157,47 +90,69 @@ transition-duration: 2s;
         
       }
       .demo-button:hover {
-        background-color:white; /* Change to blue on hover */
-        color:black;
+        background-color:rgb(155, 200, 155); /* Change to blue on hover */
+        color:rgb(65, 55, 55);
         font-size: 15px;
         font-weight: 600;
       }
       .github-button:hover {
-        background-color: black;
-        color: white;
+        background-color: rgb(155, 200, 155);
+        color: rgb(47, 43, 43);
         font-size: 15px;
         font-weight: 600;
       }
       
 
-      @media (max-width: 767px) {
-        .container {
-          max-width: 300px; /* Adjust the value as needed */
-          margin-left: 65px;
-        }
-.section-title{
- 
-  margin-left: -70px;
+
+/* Media query for screens smaller than extra-large (xl) */
+@media (max-width: 1200px) {
+  .col-xl-6 {
+    flex-basis: 100%; /* On smaller screens, make each column full-width */
+  }
 }
-        .row {
-          display: flex;
-          flex-wrap: wrap;
-        }
-      
-        .col-xl-3,
-        .col-lg-3,
-        .col-md-4,
-        .col-sm-6 {
-          flex: 0 0 50%; /* Set to 50% to have two columns */
-          max-width: 50%; /* Set to 50% to have two columns */
-          box-sizing: border-box;
-        }
-        .live-demo-button{
-         margin-top: 10px;
-        }
-        .project-list-opened{
-          margin-top: 10px;
-        }
-         
-         }
+
+/* Media query for screens smaller than large (lg) */
+@media (max-width: 992px) {
+  .col-lg-6 {
+    flex-basis: 100%; /* On smaller screens, make each column full-width */
+  }
+  .section-title {
+    text-align: center; 
+  }
+}
+
+/* Media query for screens smaller than medium (md) */
+@media (max-width: 768px) {
+  .col-md-6 {
+    flex-basis: 100%; /* On smaller screens, make each column full-width */
+  }
+  .section-title {
+    text-align: center; 
+  }
+  
+  .section-title h2 {
+    font-size: large; /* Adjust the font size of the section title */
+  }
+}
+
+/* Media query for screens smaller than small (sm) */
+@media (max-width: 576px) {
+  .project-list {
+    margin: 5px; /* Adjust margin for the project list */
+  }
+
+  .des {
+    font-size: 16px; /* Adjust the font size for project descriptions */
+  }
+  .section-title {
+    text-align: center; 
+  }
+  .tech-used-in-project p {
+    font-size: 14px; /* Adjust the font size for tech used in the project */
+  }
+}
+
+/* Additional responsive styles as needed... */
+
+     
         

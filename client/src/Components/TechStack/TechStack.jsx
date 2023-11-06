@@ -9,7 +9,7 @@ import { useState } from "react"
 const TechStack = () => {
 
     // Using the `useState` hook to create a state variable `loadMoreTech` and a function `setLoadMoreTech` to update it.
-    const [loadMoreTech, setLoadMoreTech] = useState(8)
+    const [loadMoreTech, setLoadMoreTech] = useState(4)
 
     // Define a function `loadMore` which increments the value of `loadMoreTech` by 3 when called.
     const loadMore = () => {
@@ -25,10 +25,10 @@ const TechStack = () => {
             <div className="row">
                 {/* Map over the first `loadMoreTech` items in the `data` array and render tech stack items. */}
                 {data.slice(0, loadMoreTech).map((item, index) => (
-                    <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12" key={index}>
+                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6" key={index}>
                         <div className={index === 0 ? "tech-content-marked" : "tech-content"}>
                             {/* Render a colored circle with the index number. */}
-                            <span className="tech-number" style={{ backgroundColor: colors[index] }}>
+                  <span className="tech-number" style={{ backgroundColor: colors[index] }}>
                                 {index + 1}
                             </span>
                             <p>{item.name}</p>

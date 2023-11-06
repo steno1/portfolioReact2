@@ -127,12 +127,7 @@ const Contact = () => {
             </form>
 
             {/* Note to inform user about the email sending process */}
-            <p className="note">
-              Note: Clicking "Send" will open your email client with 
-              a pre-filled message. Please review and send the email 
-              from your own account. If you encounter any issues,
-              you can manually email onuprinceley@gmail.com. Thank you!
-            </p>
+            
           </div>
         </div>
       </div>
