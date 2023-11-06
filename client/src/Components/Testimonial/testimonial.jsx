@@ -88,7 +88,7 @@ const Testimonial = () => {
                     borderRadius:"50%",
                     marginBottom:"2px",
                     alignItems:"center",
-                    border:"2px solid yellow"
+                    border:"2px solid black"
                   }}
                 />
 
